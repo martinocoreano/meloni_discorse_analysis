@@ -3,6 +3,6 @@
 
 **데이터 수집**: [ANSA](https://www.ansa.it/), [La Repubblica](https://www.repubblica.it/)
 
-**검색 키워드**: <span style="color: #008000">serie sudcoreana</span>,<span style="color: #008000">serie coreana</span>, <span style="color: #008000">K-Drama</span>
+**검색 키워드**: <span style="color: #008000">serie sudcoreana</span>, <span style="color: #008000">serie coreana</span>, <span style="color: #008000">K-Drama</span>
 
 **검색 기간**: 2021-01-01 ~ 2022-04-06
