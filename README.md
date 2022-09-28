@@ -11,6 +11,16 @@
 - **🔡 이탈리아어 자연어 처리 패키지**
   - [spaCy](https://spacy.io/), [NLTK](https://www.nltk.org/)     
 
-   
+- - -
+
+## 데이터셋
+📁 italian_news_analysis<br>
+⎿ 📊 dataset.xlsx
+- - -
+
 ## 분석 결과 워드 클라우드
 <img src="/wordcloud.png" width="50%" height="50%" alt="WordCloud"></img>
+
+- - -
+## 결과 논문
+[[학위논문]한국 드라마에 대한 이탈리아인의 인식 연구_이탈리아 온라인 뉴스 데이터 분석을 활용하여.pdf](https://github.com/sasha1107/italian_news_analysis/releases/tag/%ED%95%99%EC%9C%84%EB%85%BC%EB%AC%B8)
