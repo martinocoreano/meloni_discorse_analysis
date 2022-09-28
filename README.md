@@ -19,7 +19,7 @@
 - - -
 
 ## 분석 결과 워드 클라우드
-<img src="/wordcloud.png" width="50%" height="50%" alt="WordCloud"></img>
+<img src="/wordcloud.png" width="70%" height="70%" alt="WordCloud"></img>
 
 - - -
 ## 결과 논문
