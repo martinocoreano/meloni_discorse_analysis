@@ -1,0 +1,15 @@
+.text-box {
+    height: 100px;
+    overflow-y: scroll;
+}
+.chart {
+    width: 70%;
+    margin: 0 auto;
+}
+.doughnut {
+    width: 50%;
+}
+#wordcloud {
+    width: 70%;
+    margin: 0 auto;
+}
