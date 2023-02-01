@@ -16,6 +16,15 @@
 header {
     height: 100vh;
 }
+
+header h1 {
+    position: relative;
+    left:50%;
+    top:50%;
+    transform:translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
 .scene {
     height: 100vh;
     display: flex;
@@ -24,4 +33,20 @@ header {
     align-items: center;
     overflow: hidden;
     background-attachment: fixed;
+}
+
+.progress-bar-con {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 8px;
+    background-color: #555;
+    z-index: 10;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #00a8ff;
 }
