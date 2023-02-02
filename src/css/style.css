@@ -13,7 +13,7 @@
     width: 70%;
     margin: 0 auto;
 }
-header {
+/* header {
     height: 100vh;
 }
 
@@ -23,7 +23,7 @@ header h1 {
     top:50%;
     transform:translateX(-50%) translateY(-50%);
     text-align: center;
-}
+} */
 
 .scene {
     height: 100vh;
@@ -33,11 +33,24 @@ header h1 {
     align-items: center;
     overflow: hidden;
     background-attachment: fixed;
+    background-size: cover;
+}
+
+.one {
+    background-image: url(../../flag.png);
+}
+.two {
+    background-image: url(../../wordcloud.png);
+}
+.three {}
+.four {}
+.five {
+
 }
 
 .progress-bar-con {
     position: fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100vw;
     height: 8px;
@@ -48,5 +61,12 @@ header h1 {
 .progress-bar {
     width: 0;
     height: 100%;
-    background-color: #00a8ff;
+    background-color: #009246;
+    transition: 0.1s;
+    box-shadow: 0 0 0 1px #555 inset;
+}
+
+.earth {
+    width: 200px;
+    height: 200px;
 }

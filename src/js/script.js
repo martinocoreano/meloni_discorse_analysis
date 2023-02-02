@@ -34,8 +34,18 @@
     window.addEventListener("scroll", function () {
         const scrollPer = scrollY / maxScrollValue;
         const zMove =  scrollPer * 980 - 490;
-        // houseElem.style.transform = `translateZ(${zMove}vw)`;
+        // houseElem.style.transform = `translateZ(${zMove}vw)`
+        console.log(scrollPer);
         barElem.style.width = `${scrollPer * 100}%`;
+        if (scrollPer < 0.333) {
+            barElem.style.backgroundColor = "#009246";
+        }
+        if (scrollPer >= 0.333 && scrollPer < 0.666){
+            barElem.style.backgroundColor = "white";
+        }
+        if (scrollPer >= 0.666){
+            barElem.style.backgroundColor = "#cf2b37";
+        }
     });
 
     window.addEventListener("mousemove", function (e) {
