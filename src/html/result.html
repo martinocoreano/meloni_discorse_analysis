@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>분석 결과</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
-    <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-    <header>
-        <h1>분석 결과</h1>
-    </header>
-    <main>
-        <section>
-            <h2>불용어 제외하기 전 빈도분석 결과</h2>
-            <div class="chart">
-                <canvas id="stopwords"></canvas>
-            </div>
-        </section>
-        <section>
-            <h2>불용어 제외 후 빈도분석 결과</h2>
-            <div class="chart">
-                <canvas id="noStopwords"></canvas>
-            </div>
-        </section>
-        <section>
-            <h2>작품별 빈도수</h2>
-            <div class="chart doughnut">
-                <canvas id="drama"></canvas>
-            </div>
-        </section>
-        <section>
-            <h2>워드 클라우드</h2>
-            <div class="chart-area">
-                <div id="wordcloud"></div>
-            </div>
-        </section>
-    </main>
-    <!-- <script type="script" src="../js/parseCSV.js"></script> -->
-    <script type="module" src="../js/chart.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>분석 결과</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+        <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
+        <link rel="stylesheet" href="../css/reset.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
+        <header class="scene">
+            <h1>분석 결과</h1>
+        </header>
+        <main>
+            <section class="scene">
+                <h2>불용어 제외하기 전 빈도분석 결과</h2>
+                <div class="chart">
+                    <canvas id="stopwords"></canvas>
+                </div>
+            </section>
+            <section class="scene">
+                <h2>불용어 제외 후 빈도분석 결과</h2>
+                <div class="chart">
+                    <canvas id="noStopwords"></canvas>
+                </div>
+            </section>
+            <section class="scene">
+                <h2>작품별 빈도수</h2>
+                <div class="chart doughnut">
+                    <canvas id="drama"></canvas>
+                </div>
+            </section>
+            <section class="scene">
+                <h2>워드 클라우드</h2>
+                <div class="chart-area">
+                    <div id="wordcloud"></div>
+                </div>
+            </section>
+        </main>
+        <!-- <script type="script" src="../js/parseCSV.js"></script> -->
+        <script type="module" src="../js/chart.js"></script>
+    </body>
 </html>
